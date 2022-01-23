@@ -4,12 +4,13 @@ function NavBar() {
         <div className="nav">
                 <Link href="/"><a>Home</a></Link>
                 <Link href="/about"><a>about</a></Link>
+                <Link href="/test"><a>test</a></Link>
         <style jsx>
                     {`
                     .nav {
                         display: flex;
                         gap: 10px;
-                        flex-direction: column;
+                        justify-content: center;
                         align-items: center;
                         padding-top: 20px;
                         padding-bottom: 10px;
